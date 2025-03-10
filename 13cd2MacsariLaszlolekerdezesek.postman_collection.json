@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "0170492d-efcf-4708-8a29-20e380fa3873",
+		"name": "13cd2MacsariLaszlolekerdezesek",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41647451"
+	},
+	"item": [
+		{
+			"name": "osszpontszam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/osszpontszam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"osszpontszam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agazatjelent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/agazatjelent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"agazatjelent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fut a backend",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
